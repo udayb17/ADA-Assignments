@@ -29,7 +29,6 @@ class FractionalKnapsack {
 
         double total = 0;
 
-        // Pick items greedily
         for (Item i : items) {
             if (capacity >= i.weight) {
                 total += i.value;
